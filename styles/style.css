@@ -45,10 +45,6 @@ h1 {
     background-color: #00a2ff;
 }
 
-h2 {
-    color: white;
-}
-
 #message {
     height: 200px !important;
 }
@@ -118,17 +114,14 @@ margin-top:10px;
 }
 
 .gallery-image{
-    height:80%;
+    height:90%;
     width:100%;
 }
 
 h3{
     color: #0066ff;
 }
-.testimonial-wrap{
-
-}
 #about-header{
-    font-size:36pt;
+    font-size:36pt !important;
     margin-top:-10px;
 }
