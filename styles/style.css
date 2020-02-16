@@ -42,7 +42,7 @@ h1 {
 #contactWrap {
     width: 100wh;
     color: white;
-    background-color: #0066ff;
+    background-color: #00a2ff;
 }
 
 h2 {
@@ -127,4 +127,8 @@ h3{
 }
 .testimonial-wrap{
 
+}
+#about-header{
+    font-size:36pt;
+    margin-top:-10px;
 }
