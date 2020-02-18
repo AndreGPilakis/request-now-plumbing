@@ -113,11 +113,6 @@ margin-top:10px;
     padding-bottom:10px;
 }
 
-.gallery-image{
-    height:90%;
-    width:100%;
-}
-
 h3{
     color: #0066ff;
 }
@@ -151,4 +146,18 @@ h3{
 }
 .carousel-indicators .indicator{
     background-color: #80b3ff;
+}
+.col-lg-4{
+    /* border: 2px solid black !important; */
+}
+.gallery-image{
+    height:360px;
+    width:100%;
+    border: 5px solid #e7e7e7;
+    border-radius:5px;
+}
+
+.gallery-modal-button{
+    background-color: none;
+    border: none;
 }

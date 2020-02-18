@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://kit.fontawesome.com/c008f3a518.js" crossorigin="anonymous"></script>
-
+  <script src="js/main.js"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -48,57 +48,57 @@
       </div>
     </div>
 
-<div class="row">
-  <div class="col">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="indicator"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="indicator"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5" class="indicator"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 img-fluid" src="images/gallery/gallery-1.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/gallery/gallery-3.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="images/gallery/gallery-4.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="images/gallery/gallery-5.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="images/gallery/gallery-6.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 cimg" src="images/gallery/oven.jpg" alt="Third slide">
-        </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <button onclick="showModal('1')" id="modal-1-button" class="gallery-modal-button">
+        <!-- <button data-toggle="modal" data-target="#modal-1" class="gallery-modal-button"> -->
+        <img src="images/gallery/thumbs/gallery-1-thumb.jpg" class="gallery-image">
+      </button>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-2-thumb.jpg" class="gallery-image">
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-3-thumb.jpg" class="gallery-image">
+      </div>
     </div>
 
-  </div>
-</div>
+<br>
 
-  </div>
-   
-<br><br>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-4-thumb.jpg" class="gallery-image">
+      </div>
 
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-5-thumb.jpg" class="gallery-image">
+      </div>
 
-  
-  
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-6-thumb.jpg" class="gallery-image">
+      </div>
+    </div>
+
+<br>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-7-thumb.jpg" class="gallery-image">
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/gallery/thumbs/gallery-8-thumb.jpg" class="gallery-image">
+      </div>
+
+      <div class="col-lg-4">
+        <img src="images/gallery/gallery-8.jpg" class="gallery-image">
+      </div>
+    </div>
+
+<br>
+
   <div id="contactWrap">
     <br>
     <div class="container">
@@ -156,6 +156,28 @@
           </form>
     </div>
 </div>
+
+
+
+<div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> 
 
 
 
